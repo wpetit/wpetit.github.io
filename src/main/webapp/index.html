@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="wpetitApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>wpetit</title>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.js"></script>
+<script
+	src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-resource.min.js"></script>
+<script
+	src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-route.min.js"></script>
+<script
+	src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-animate.min.js"></script>
+<script
+	src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script
+	src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.0/ui-bootstrap-tpls.js"></script>
+<script
+	src="http://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.4/toaster.js"></script>
+
+<script src="js/app.js"></script>
+<script src="js/controller/controller.js"></script>
+<script src="js/service/service.js"></script>
+
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+<link rel="stylesheet"
+	href="http://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.4/toaster.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<div ng-controller="wpetitCtrl">
+		<h1>wpetit</h1>
+		<div class="row">
+			<div ng-repeat="app in applications" class="col-md-4">
+				<div class="thumbnail">
+					<a
+						ng-href="{{app.url}}"><img
+						src="{{app.imageUrl}}"
+						alt="..."></a>
+					<div class="caption">
+						<h3>{{app.name}}</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
