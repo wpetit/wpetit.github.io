@@ -30,35 +30,38 @@
 	href="http://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.4/toaster.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
-<body style="background-color: black">
-	<nav class="navbar navbar-inverse" role="navigation">
-		<div class="container-fluid">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">wpetit</a>
-				</div>
+<body>
+	<div class="navbar-wrapper container">
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container-fluid">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">wpetit</a>
+					</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse"
-					id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Android</a></li>
-					</ul>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse"
+						id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Android</a></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
 				</div>
-				<!-- /.navbar-collapse -->
 			</div>
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
-	<br />
-	<div ng-controller="wpetitCtrl" class="" set-ng-animate="false">
+			<!-- /.container-fluid -->
+		</nav>
+	</div>
+	<div ng-controller="wpetitCtrl" style="height: 100%;"
+		set-ng-animate="false">
 
-		<carousel interval="5000" style="background-color: rgb(129,129,129);">
-		<slide active="active" ng-repeat="app in applications"
-			style="height:500px"> <br />
-		<a ng-href="{{app.url}}"> <img ng-src="{{app.imageUrl}}"
-			style="margin: auto; width: 300px">
+		<carousel interval="5000" style="height:100%"> <slide
+			active="active" ng-repeat="app in applications"
+			style="margin-top:150px"> <br />
+		<a ng-href="{{app.url}}"> <img class="slideImage" ng-src="{{app.imageUrl}}"
+			style="margin: auto; width: 200px;" />
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			<div class="carousel-caption">
 				<h4>{{app.name}}</h4>
 				<p>{{app.text}}</p>
