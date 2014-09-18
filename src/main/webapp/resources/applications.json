@@ -7,8 +7,23 @@
 		},
 		{
 			"name":"Toilettes à Rennes",
-			"imageUrl":"https://lh4.ggpht.com/0QbfgsxGX-zRyJDFkFwFZpPENeylEn-vTY-J7jeGoxdCdgjTh1KBALLda9i-Bg3wt6Id=w300-rw",
-			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.justcount"	
+			"imageUrl":"https://lh5.ggpht.com/KhXywqZNtBTv7nGrhF7bnrjZqC2c6fMzoFvjcLrUSrT5qGw8oKFWMxhxH7J8R97bEVrs=w300-rw",
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.rennes.toilettes"	
+		},
+		{
+			"name":"Toilettes à Bordeaux",
+			"imageUrl":"https://lh3.ggpht.com/CXEqOfCX1GwCJJm1Px8CYCq_5TWOR1cJW7YbaLyHNg3dBlHFpyR0VSfbR90HLwJAFWg=w300-rw",
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.bordeaux"	
+		},
+		{
+			"name":"WC à Toulouse",
+			"imageUrl":"https://lh6.ggpht.com/RBkMaGt0Rh1xiW9LbrOq24hPb0XMb-QdKB_GQSJYGYaPd-UhFxhS-0kijVmnD9sOkKA=w300-rw",
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.toulouse"	
+		},
+		{
+			"name":"WC à Paris",
+			"imageUrl":"https://lh4.ggpht.com/ynQ8JSeXQOHY5GymnviiMgMMPv6VBQt532_qBW_PkPI0m7u5L2p6PIZzNeZnT-T4zg=w300-rw",
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.paris"	
 		}
 	]
 }

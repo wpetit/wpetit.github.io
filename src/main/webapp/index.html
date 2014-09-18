@@ -28,18 +28,36 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-	<div ng-controller="wpetitCtrl">
-		<h1>wpetit</h1>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container-fluid">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">wpetit</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse"
+					id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Android</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+
+	<br>
+
+	<div ng-controller="wpetitCtrl" class="container">
 		<div class="row">
-			<div ng-repeat="app in applications" class="col-md-4">
+			<div ng-repeat="app in applications" class="col-md-2 text-center">
 				<div class="thumbnail">
-					<a
-						ng-href="{{app.url}}"><img
-						src="{{app.imageUrl}}"
-						alt="..."></a>
-					<div class="caption">
-						<h3>{{app.name}}</h3>
-					</div>
+					<a ng-href="{{app.url}}"><img src="{{app.imageUrl}}" alt="..."></a>
+					<div class="caption">{{app.name}}</div>
 				</div>
 			</div>
 		</div>
