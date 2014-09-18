@@ -57,12 +57,13 @@
 		<carousel interval="5000" style="background-color: rgb(129,129,129);">
 		<slide active="active" ng-repeat="app in applications"
 			style="height:500px"> <br />
-		<img ng-src="{{app.imageUrl}}" style="margin: auto; width: 300px">
-		<div class="carousel-caption">
-			<h4>{{app.name}}</h4>
-			<p>{{app.text}}</p>
-		</div>
-		</slide> </carousel>
+		<a ng-href="{{app.url}}"> <img ng-src="{{app.imageUrl}}"
+			style="margin: auto; width: 300px">
+			<div class="carousel-caption">
+				<h4>{{app.name}}</h4>
+				<p>{{app.text}}</p>
+			</div>
+		</a> </slide> </carousel>
 	</div>
 
 </body>
