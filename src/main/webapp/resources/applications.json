@@ -3,27 +3,32 @@
 		{
 			"name":"Just Count",
 			"imageUrl":"https://lh4.ggpht.com/0QbfgsxGX-zRyJDFkFwFZpPENeylEn-vTY-J7jeGoxdCdgjTh1KBALLda9i-Bg3wt6Id=w300-rw",
-			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.justcount"	
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.justcount",
+			"text":"Comptez tout ce que vous voulez simplement. Comptez par exemple : - le nombre de passagers dans un avion - le nombre d'allumettes dans une boîte - le nombre de verre que vous avez bu cette soirée Pour augmenter le compteur, il suffit de taper sur l'écran. A l'aide du menu, vous pouvez compter de 1 en 1, de 2 en 2, de 4 en 4, ... Pour remettre à zéro le compteur, il suffit de rester appuyer un court instant sur l'écran."	
 		},
 		{
 			"name":"Toilettes à Rennes",
 			"imageUrl":"https://lh5.ggpht.com/KhXywqZNtBTv7nGrhF7bnrjZqC2c6fMzoFvjcLrUSrT5qGw8oKFWMxhxH7J8R97bEVrs=w300-rw",
-			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.rennes.toilettes"	
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.rennes.toilettes",
+			"text":"Toilettes à Rennes vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes, les horaires d'ouvertures ainsi que l'accessibilité aux personnes à mobilité réduite. Les données proviennent de l'entrepôt de données de Rennes Métropole sous licence ODbL (Open Database Licence)."	
 		},
 		{
 			"name":"Toilettes à Bordeaux",
 			"imageUrl":"https://lh3.ggpht.com/CXEqOfCX1GwCJJm1Px8CYCq_5TWOR1cJW7YbaLyHNg3dBlHFpyR0VSfbR90HLwJAFWg=w300-rw",
-			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.bordeaux"	
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.bordeaux",
+			"text":"Toilettes à Bordeaux vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes, leur nature ainsi que l'accessibilité aux personnes à mobilité réduite. Les données proviennent de la Ville de Bordeaux et ont été mises à jour le 05/01/2014."		
 		},
 		{
 			"name":"WC à Toulouse",
 			"imageUrl":"https://lh6.ggpht.com/RBkMaGt0Rh1xiW9LbrOq24hPb0XMb-QdKB_GQSJYGYaPd-UhFxhS-0kijVmnD9sOkKA=w300-rw",
-			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.toulouse"	
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.toulouse",
+			"text":"WC à Toulouse vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes, leur nature ainsi que l'accessibilité aux personnes à mobilité réduite. Les données proviennent de Toulouse Métropole sous licence ODbL (Open Database Licence)."	
 		},
 		{
 			"name":"WC à Paris",
 			"imageUrl":"https://lh4.ggpht.com/ynQ8JSeXQOHY5GymnviiMgMMPv6VBQt532_qBW_PkPI0m7u5L2p6PIZzNeZnT-T4zg=w300-rw",
-			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.paris"	
+			"url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.paris",
+			"text":"WC à Paris vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes, leur nature ainsi que l'accessibilité aux personnes à mobilité réduite. Les données proviennent de l'OpenData de Paris sous licence ODbL (Open Database Licence)."		
 		}
 	]
 }
