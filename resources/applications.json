@@ -35,6 +35,60 @@
             "imageUrl":"https://lh3.ggpht.com/rNTw4IGM2KnqUcw9-nauTv25bj-SoSKY0qH1kMVbcq17Q5coDRyUf-2u_13lRdkdNSM=w300-rw",
             "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.larochelle",
             "text":"Toilettes à La Rochelle vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes, les horaires d'ouverture ainsi que l'accessibilité aux personnes à mobilité réduite. Les données proviennent de la ville de La Rochelle sous licence ODbL."        
+        },
+        {
+            "name":"Toilettes à Strasbourg",
+            "imageUrl":"https://lh6.ggpht.com/A5z7-tYVRjmCLVddi3fWdO7xAfZ-dj44gFV7Ne3GH9s0bVZmdiH71n6qviclBvZhNfo=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.strasbourg",
+            "text":"Toilettes à Strasbourg vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes, leur nature ainsi que l'accessibilité aux personnes à mobilité réduite. Les données proviennent de la Ville de Strasbourg et ont été mises à jour le 24/10/2014."        
+        },
+        {
+            "name":"Calculatime",
+            "imageUrl":"https://lh5.ggpht.com/r6C4EjDtGkuazfnZzMr3V76XTeJ8Sj3-aqUOaZKqLHbwN04YZY-hJSUQlW9GteHCpd6o=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.timecalculator",
+            "text":"Calculatime vous permet d'effectuer des calculs sur des dates et des durées. Vous pouvez effectuer des calculs entre des durées ou entre une date et une durée. Par exemple, vous pouvez calculer quel jour il sera dans 2 jours, 3 heures, 54 minutes et 14 secondes. Les résultats des calculs sur les durées sont donnés dans plusieurs formats : jours, heures, minutes ou secondes."        
+        },
+        {
+            "name":"Restrooms in Canberra",
+            "imageUrl":"https://lh3.ggpht.com/UwUkPBMA8nu89uGYuaAMA00mc6dBnDGhGf0r9JKddBkDcKU7k0d1bcSvdqxmr25j2JQ=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.canberra",
+            "text":"Restrooms in Canberra helps you to find public toilets nearby. The application displays the restrooms location and their accessibility for people with disabilities. Data are provided by the Australian Government."        
+        },
+        {
+            "name":"Restrooms in Adelaide",
+            "imageUrl":"https://lh3.ggpht.com/1mmg_OR_jYYsLFxqEosTsSqJhJ-Q6HWWyqz9kshBHOHizhGzeAmFh__aYzdPB67JoNU=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.adelaide",
+            "text":"Restrooms in Adelaide helps you to find public toilets nearby. The application displays the restrooms location and their accessibility for people with disabilities. Data are provided by the Australian Government."        
+        },
+        {
+            "name":"Restrooms in Perth",
+            "imageUrl":"https://lh3.ggpht.com/fwZpPYt2SxndNyO1_7wY0BV0OmH1NF0uDSP4FwyGaXoDp2BypWWYO0POwIQfrINTJ8XM=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.perth",
+            "text":"Restrooms in Perth helps you to find public toilets nearby. The application displays the restrooms location and their accessibility for people with disabilities. Data are provided by the Australian Government."        
+        },
+        {
+            "name":"Restrooms in Brisbane",
+            "imageUrl":"https://lh5.ggpht.com/fF3E6H89KS9I34IVLhzMf_eEj873xEKiRCujaOna6dUiBbOnc-J-m6HnFkIWrWSqJw=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.brisbane",
+            "text":"Restrooms in Brisbane helps you to find public toilets nearby. The application displays the restrooms location and their accessibility for people with disabilities. Data are provided by the Australian Government."        
+        },
+        {
+            "name":"Restrooms in Sydney",
+            "imageUrl":"https://lh5.ggpht.com/LCod4oG7Qx5rn1P7-mu7ZXx4TMoBEJFXnB_YuJqGZmcd94Q1aLwN0fLsTkCwHZ-SyrY=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.sydney",
+            "text":"Restrooms in Sydney helps you to find public toilets nearby. The application displays the restrooms location and their accessibility for people with disabilities. Data are provided by the Australian Government."        
+        },
+        {
+            "name":"Restrooms in Melbourne",
+            "imageUrl":"https://lh4.ggpht.com/rwIVod3vLbiYo9sFTlua7KUo5Yqr58yi32URSSa7C1AKTz6x0IVldvzQX0ijxxN2K-0=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.melbourne",
+            "text":"Restrooms in Melbourne helps you to find public toilets nearby. The application displays the restrooms location and their accessibility for people with disabilities. Data are provided by the City of Melbourne."        
+        },
+        {
+            "name":"Общественные туалеты в Москве",
+            "imageUrl":"https://lh3.ggpht.com/yxBzE2sgFsfX1JmaMKcuwfAPxWZmx9pw2JKqFV3_Kg2HgcLNsISrLd5UCdnISaENS2E=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.moscou",
+            "text":"Найти общественные туалеты в Москве"        
         }
 	]
 }
