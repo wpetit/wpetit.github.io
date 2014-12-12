@@ -14,7 +14,19 @@ angular.module('ui.bootstrap.setNgAnimate', [ 'ngAnimate' ]).directive(
 			};
 		} ]);
 
-var app = angular.module('wpetitApp', [ 'ui.bootstrap', 'ngAnimate', 'ngTouch',
+var app = angular.module('wpetitApp', [ 'ngRoute','ui.bootstrap', 'ngAnimate', 'ngTouch',
 		'ui.bootstrap.setNgAnimate', 'wpetitAppControllers' ]);
 
 var wpetitAppControllers = angular.module('wpetitAppControllers', []);
+
+app.config([ '$routeProvider', function($routeProvider) {
+	$routeProvider.when('/android/list', {
+		templateUrl : 'partials/android-list.html',
+		controller : 'wpetitCtrl'
+	}).when('/maven/list', {
+		templateUrl : 'partials/maven-list.html',
+		controller : 'wpetitCtrl'
+	}).otherwise({
+		redirectTo : '/android/list'
+	});
+} ]);

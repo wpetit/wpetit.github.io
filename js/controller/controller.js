@@ -20,3 +20,12 @@ wpetitAppControllers.controller('wpetitCtrl', function($scope,
 		}
 	});
 });
+
+//Create a controller with name wpetitCtrl to bind to the html page.
+wpetitAppControllers.controller('navController', function($scope, $location) {
+
+	$scope.isActive = function (viewLocation) { 
+        return viewLocation === $location.path();
+    };
+});
+

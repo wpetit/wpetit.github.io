@@ -31,7 +31,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-	<div class="navbar-wrapper container">
+	<div class="navbar-wrapper container" ng-controller="navController">
 		<nav class="navbar navbar-inverse" role="navigation">
 			<div class="container-fluid">
 				<div class="container">
@@ -44,7 +44,8 @@
 					<div class="collapse navbar-collapse"
 						id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Android</a></li>
+							<li ng-class="{ active: isActive('#/android/list')}"><a href="#/android/list">Android</a></li>
+							<li ng-class="{ active: isActive('#/maven/list')}"><a href="#/maven/list">Maven</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -53,21 +54,7 @@
 			<!-- /.container-fluid -->
 		</nav>
 	</div>
-	<div ng-controller="wpetitCtrl" style="height: 100%;"
-		set-ng-animate="false">
-
-		<carousel interval="5000" style="height:100%"> <slide
-			active="active" ng-repeat="app in applications"
-			style="margin-top:150px"> <br />
-		<a ng-href="{{app.url}}"> <img class="slideImage" ng-src="{{app.imageUrl}}"
-			style="margin: auto; width: 200px;" />
-			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-			<div class="carousel-caption">
-				<h4>{{app.name}}</h4>
-				<p>{{app.text}}</p>
-			</div>
-		</a> </slide> </carousel>
-	</div>
+	<div style="height: 100%;" ng-view></div>
 
 </body>
 </html>
