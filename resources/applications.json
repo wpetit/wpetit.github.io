@@ -43,6 +43,12 @@
             "text":"Toilettes à Strasbourg vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes, leur nature ainsi que l'accessibilité aux personnes à mobilité réduite. Les données proviennent de la Ville de Strasbourg et ont été mises à jour le 24/10/2014."        
         },
         {
+            "name":"Toilettes à Lyon",
+            "imageUrl":"https://lh3.ggpht.com/kXK6QO58_itba9Zb9x1Blq1m3CerUTrXarPEmAlV25XfoWAGxy8q2KZuXLBHNSYmFDs=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.lyon",
+            "text":"Toilettes à Lyon vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes dans les villes du Grand Lyon : Tassin-la-Demi-Lune, Vernaison, Francheville, Saint-Cyr-au-Mont-D'or, Neuville-sur-Saone, Rillieux-la-Pape, Montanay, Albigny-sur-Saone, Genay, Sathonay-Camp, Lyon. Les données proviennent de l'Open Data du Grand Lyon et ont été mises à jour le 08/12/2014."        
+        },
+        {
             "name":"Calculatime",
             "imageUrl":"https://lh5.ggpht.com/r6C4EjDtGkuazfnZzMr3V76XTeJ8Sj3-aqUOaZKqLHbwN04YZY-hJSUQlW9GteHCpd6o=w300-rw",
             "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.timecalculator",
