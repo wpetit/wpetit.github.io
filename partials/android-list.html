@@ -3,20 +3,18 @@
 	<carousel interval="5000" style="height:100%"> <slide
 		active="active" ng-repeat="app in applications"
 		style="margin-top:150px"> <br />
-	<a ng-href="{{app.url}}"> <img class="slideImage"
-		ng-src="{{app.imageUrl}}" style="margin: auto; width: 200px;" /> <br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
+	<div>
+		<img class="slideImage" ng-src="{{app.imageUrl}}"
+			style="margin: auto; width: 200px;" /> <br /> <br /> <br /> <br />
+		<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
 		<div class="carousel-caption">
 			<h4>{{app.name}}</h4>
 			<p>{{app.text}}</p>
+			<a ng-href="{{app.url}}"> <img alt="Get it on Google Play"
+				style="margin: auto; width: 200px;"
+				src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+			</a>
 		</div>
-	</a> </slide> </carousel>
+	</div>
+	</slide> </carousel>
 </div>
