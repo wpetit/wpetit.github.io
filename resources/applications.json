@@ -46,7 +46,7 @@
             "name":"Toilettes à Lyon",
             "imageUrl":"https://lh3.ggpht.com/kXK6QO58_itba9Zb9x1Blq1m3CerUTrXarPEmAlV25XfoWAGxy8q2KZuXLBHNSYmFDs=w300-rw",
             "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.lyon",
-            "text":"Toilettes à Lyon vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes dans les villes du Grand Lyon : Tassin-la-Demi-Lune, Vernaison, Francheville, Saint-Cyr-au-Mont-D'or, Neuville-sur-Saone, Rillieux-la-Pape, Montanay, Albigny-sur-Saone, Genay, Sathonay-Camp, Lyon. Les données proviennent de l'Open Data du Grand Lyon et ont été mises à jour le 08/12/2014."        
+            "text":"Toilettes à Lyon vous permet de trouver les toilettes publiques à proximité. L'application affiche l'emplacement des toilettes, leur nature, leurs heures d'ouvertures ainsi que l'accessibilité aux personnes à mobilité réduite."        
         },
         {
             "name":"Toilettes à Bruxelles",
@@ -95,6 +95,12 @@
             "imageUrl":"https://lh4.ggpht.com/rwIVod3vLbiYo9sFTlua7KUo5Yqr58yi32URSSa7C1AKTz6x0IVldvzQX0ijxxN2K-0=w300-rw",
             "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilettes.melbourne",
             "text":"Restrooms in Melbourne helps you to find public toilets nearby. The application displays the restrooms location and their accessibility for people with disabilities. Data are provided by the City of Melbourne."        
+        },
+        {
+            "name":"Public toilets in Moscow",
+            "imageUrl":"https://lh5.ggpht.com/ZYdiLJPMpv9sCvP885uiuzPhhTO_7DHiNITnTSw5Lq028JAB8W_aNvkZrctYM9f8Y6U=w300-rw",
+            "url":"https://play.google.com/store/apps/details?id=com.wpetit.android.toilets.moscow",
+            "text":"Public toilets in Moscow helps you to find public toilets nearby. The application displays the restrooms location, timetable and their accessibility for people with disabilities."        
         },
         {
             "name":"Общественные туалеты в Москве",
